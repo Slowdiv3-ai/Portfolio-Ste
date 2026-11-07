@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Ndirangu | Creative Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="home">
+        <div class="header-content">
+            <h1>Vincent Ndirangu</h1>
+            <p>Creative Web Developer & Designer</p>
+            <a href="#contact" class="btn download-btn">Download CV</a>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section-container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <!-- Using a placeholder image, you can replace the src with your own photo later -->
+                <img src="images/images.jpg" alt="Vincent Ndirangu Photo">
+                <div class="about-text">
+                    <h3>Vincent Ndirangu</h3>
+                    <p><strong>Course:</strong> Diploma in Computer Science</p>
+                    <p><strong>Institution:</strong> Zetech University</p>
+                    <p>Hello! I am a passionate developer who loves building unique, user-friendly web experiences. I enjoy solving complex problems with clean code and constantly learning new technologies.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML5 & CSS3</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Python</div>
+                <div class="skill-card">Database Management</div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <h3>Hidden Gems Music App</h3>
+                    <p>A web application that uses API integration to find underground music tracks based on user input, avoiding mainstream algorithmic recommendations.</p>
+                    <p class="tech-used"><strong>Tech Used:</strong> HTML, CSS, JavaScript, REST APIs</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Personal Finance Tracker</h3>
+                    <p>A Python-based desktop application to track daily expenses, categorize spending, and visualize monthly budgets using data charts.</p>
+                    <p class="tech-used"><strong>Tech Used:</strong> Python, SQLite, Tkinter</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="section-container">
+            <h2>Contact Me</h2>
+            <div class="contact-layout">
+                <div class="contact-info">
+                    <p>Email: <a href="mailto:vincentndirangu@gmail.com">vincentndirangu@gmail.com</a></p>
+                    <p>Phone: +254 117704531</p>
+                    <p>Location: Nairobi, Kenya</p>
+                </div>
+                
+                <form action="#" method="POST" class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="btn submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vincent Ndirangu. Built with VS Code.</p>
+    </footer>
+
+</body>
+</html>
